@@ -1,8 +1,13 @@
 p=int(input('Enter percentage: '))
-bool(p>=90 and print('grade=S'))
-bool(p>=80 and print('grade=A'))
-bool(p==70 and print('grade=B'))
-bool(p==60 and print('grade=C'))
-bool(p==50 and print('grade=D'))
-bool(p<90 and print('Failed'))
-
+if(p>=90):
+    print('grade=S')
+elif(p>=80):
+    print('grade=A')
+elif(p>=70):
+    print('grade=B')
+elif(p>=60):
+    print('grade=C')
+elif(p>=50):
+    print('grade=D')
+else:
+    print('Failed')
